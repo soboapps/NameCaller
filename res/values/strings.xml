@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, NameCallerActivity!</string>
+    <string name="app_name">Name Caller Pro</string>
+    <string name="desc">South Bound Applications</string>
+    <string name="stDonate">Donate</string>
+    <string name="stLove">I\'m in Love </string>
+    <string name="stMood">Pick Your Mood</string>
+    <string name="stAbout">About</string>
+    <string name="stLMood">Honey, Your My &#8230;</string>
+    <string name="stMMood">You &#8230;</string>
+    <string name="stMad">I\'m so Mad </string>
+    <string name="stClean">Clean</string>
+    <string name="stDirty">Dirty</string>
+    <string name="stSpin">SPIN</string>
+    <string name="stPress">PRESS</string>
+    <string name="stLeftSpin">Left Spin</string>
+    <string name="stRightSpin">Right Spin</string>
+    <string name="stAbout_nc">Name Caller 3.3 \u00A9 2012 SoBo</string>
+    <string name="stExit">Exit</string>
+    <string name="stAboutTxt">Name Caller is for entertainment purposes only.</string>
+    <string name="stWWW">http://www.soboapps.com</string>
+    <string name="stName">Name</string>
+    <string name="stCaller">Caller</string>
+    <string name="MY_AD_UNIT_ID">a14f4924b2df6ab</string>
+    <string name="stSayit">Say it for me!</string>
+    <string name="stCompany"> South Bound Apps</string>
+
+
+</resources>

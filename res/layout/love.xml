@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/stLMood"
+        android:textSize="30dp"
+        android:textStyle="bold" 
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            
+        <TextView
+            android:id="@+id/tvLeftWord"
+            android:background="#EC8282"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.10"
+            android:gravity="center"
+            android:text="@string/stName" 
+            android:cursorVisible="false" 
+            android:textStyle="bold"
+            android:textColor="#C11B17" 
+            android:textSize="35dp"
+            android:clickable="false"/>
+
+
+        <TextView
+            android:id="@+id/tvRightWord"
+            android:background="#EC8282"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.10"
+            android:gravity="center"
+            android:text="@string/stCaller" 
+            android:cursorVisible="false" 
+            android:textStyle="bold"
+            android:textColor="#C11B17"
+            android:textSize="35dp"
+            android:clickable="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+            <Button
+                android:id="@+id/btLeftSpin"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="50"
+                android:textSize="20dp"
+                android:text="@string/stLeftSpin" 
+                android:paddingTop="5dp" 
+                android:gravity="center" 
+                android:width="30dp"/>
+
+            <Button
+                android:id="@+id/btRightSpin"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="50"
+                android:textSize="20dp"
+                android:text="@string/stRightSpin" 
+                android:paddingTop="5dp" 
+                android:gravity="center" 
+                android:width="30dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btSpin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="@string/stSpin" >
+       
+        <requestFocus />
+	</Button>
+	
+    <Button
+        android:id="@+id/btLSayit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/stSayit"
+        android:textSize="30dp" >
+       
+	</Button>
+
+    <TextView
+        android:id="@+id/lshow_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press Spin First" 
+        android:visibility="invisible"/>
+
+</LinearLayout>
